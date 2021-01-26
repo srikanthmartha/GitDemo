@@ -35,6 +35,8 @@ public class stepdefinition {
 	@Then("^home page is displayed$")
 	    public void home_page_is_displayed() throws Throwable {
 	        System.out.println("bank site openend");
+	        System.out.println("bank site openend twice");
+	        System.out.println("bank site openend thrice");
 	    }
 
 	@And("^all the cards are displayed \"([^\"]*)\"$")
